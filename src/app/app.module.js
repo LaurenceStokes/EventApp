@@ -18,8 +18,5 @@
       redirectTo: '/'
     });
   }
-
-  runFunction.$inject = ['$rootScope', '$location'];
-
-
+  
 })();
