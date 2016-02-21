@@ -4,12 +4,10 @@
         <p class="lead">Always keep on top of what's happening!</p>
     </div>
     <div class="row">
-        <form class="well form-search">
-            <label>Look some stuff up yo':</label>
-            <input type="text" ng-model="vm.searchTerms" class="input-medium search-query" placeholder="Try me">
-            <button type="submit" class="btn" ng-click="vm.search()">Search</button>
-            <p class="help-block">Try for example: "DNB London"</p>		
-        </form>
+        <label>Look some stuff up yo':</label>
+        <input type="text" ng-model="vm.searchTerms" class="input-medium search-query" placeholder="Try me">
+        <button type="submit" class="btn" ng-click="vm.search()">Search</button>
+        <p class="help-block">Try for example: "DNB London"</p>		
         <pre ng-model="result">
             {{result}}
         </pre>
