@@ -12,7 +12,7 @@ which is the style guide recommended by the AngularJS core team.
 
 ## Contact
 
-## DevOps/How To get it running (Mainly for Rob)
+## DevOps/How To get it running 
 
 Install Python (2.7 or 3.5)
 
