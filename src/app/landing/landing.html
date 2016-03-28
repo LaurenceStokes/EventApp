@@ -6,11 +6,15 @@
     <div class="row">
         <label>Look some stuff up yo':</label>
         <input type="text" ng-model="vm.searchTerms" class="input-medium search-query" placeholder="Try me">
-        <button type="submit" class="btn" ng-click="vm.search()">Search</button>
-        <p class="help-block">Try for example: "DNB London"</p>		
-        <pre ng-model="result">
-            {{result}}
+        <button type="submit" class="btn" ng-click="vm.search(vm.searchTerms)">Search</button>
+        <p class="help-block">Try for example: "DNB London"</p>	
+        <ng-map zoom="11" center="[0,0]">
+            <shape id="circle" name="circle" centered="true"
+              stroke-color='#FF0000' stroke-opacity="0.8"stroke-weight="2"
+              center="current-position" radius="4000" editable="true" ></shape>
+        </ng-map>       
+        <pre>
+            {{vm.result}}
         </pre>
    </div>
-    </div>
 </div>

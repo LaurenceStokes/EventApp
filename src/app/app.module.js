@@ -7,6 +7,7 @@
       'ngRoute',
 
       // Custom modules.
+      'ngMap',
       'app.landing'
     ])  
     .config(configFunction);
